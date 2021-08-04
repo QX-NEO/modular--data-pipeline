@@ -36,7 +36,18 @@ webdriver manager: pip install webdriver-manager <- helps you to download your w
 
 
 **Important:**
-reccomended to use postgresql
+
+recommended to use postgresql
+
+under functions.py fill in your database connection details.
+
+**Procedures:**
+
+1) fill in database particulars in functions.py
+2) run all populate_DB.ipynb file <- this will populate your database
+3) set schedule.py inside your task schedular insructions can be found here : https://www.jcchouinard.com/python-automation-using-task-scheduler/ run your script every hour/ do not need to worry about duplicates as the script will remove duplicates found
+4) run the visuals.py to view time series og Indicative Value Of Aggregate Holding of FPIS (INR CR#) for that ISIN.
+
 
 
 
